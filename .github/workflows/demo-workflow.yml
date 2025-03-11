@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests==2.25.0  # Intentionally use an older version
+        pip install requests==2.31.0  # Intentionally use an older version
     
     - name: Run tests
       run: |
